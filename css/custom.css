@@ -1,16 +1,16 @@
 .bg-dark {
-    background-color: #010101 !important;
+    background-color: #81BFDA !important;
 }
 
 .navbar-dark .navbar-nav .nav-link {
-    font-size: 24px;
+    font-size: 20px;
     padding-left: 15px;
     padding-right: 15px;
     color: rgba(255, 255, 255, 1);
 }
 
 .navbar-dark .navbar-brand {
-    font-size: 30px;
+    font-size: 22px;
     font-weight: bold;
 }
 
@@ -66,8 +66,29 @@ section.header .header-content .container{
     width: 500px;
 }
 
-.btn-download {
+.btn-download{
     border-radius: 30px;
-    border: 3px solid #F5F5F5;
-    background: #E75201;
+    border: 3px solid #F5F0CD;
+    background: #FADA7A;
+}
+
+.card-body{
+    justify-content: center;
+    align-items: center
+}
+
+.zoom{
+    transition: ease-in-out .08s;
+}
+
+.zoom:hover{
+    transform: scale(1.05);
+}
+
+
+.img-cropped {
+    object-fit: cover;
+    object-position: center center;
+    width: 100%;
+    aspect-ratio: 1 / 1; 
 }
