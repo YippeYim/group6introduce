@@ -92,3 +92,10 @@ section.header .header-content .container{
     width: 100%;
     aspect-ratio: 1 / 1; 
 }
+
+.cropped {
+    object-fit: cover;
+    object-position: center center;
+    width: 100%;
+    aspect-ratio: 1 / 1; 
+}
